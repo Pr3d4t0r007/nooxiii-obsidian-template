@@ -1,0 +1,12 @@
+{
+  "readableLineLength": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00 - Inbox",
+  "attachmentFolderPath": "99 - Obsidian/Attachments",
+  "alwaysUpdateLinks": true,
+  "livePreview": false,
+  "defaultViewMode": "preview",
+  "propertiesInDocument": "source",
+  "showLineNumber": false,
+  "vimMode": true
+}

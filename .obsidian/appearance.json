@@ -1,0 +1,19 @@
+{
+  "accentColor": "#5ac700",
+  "baseFontSize": 16,
+  "cssTheme": "AnuPpuccin",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "OutlinedCallout",
+    "MCL Multi Column",
+    "extended-colorschemes",
+    "custom-rainbow-colors",
+    "my-callouts",
+    "Outlined callout",
+    "vault-logo",
+    "banner-space-editing"
+  ],
+  "showRibbon": true,
+  "interfaceFontFamily": "",
+  "textFontFamily": ""
+}

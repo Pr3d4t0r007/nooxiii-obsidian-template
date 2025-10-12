@@ -1,0 +1,52 @@
+{
+  "callouts": {
+    "custom": [
+      "regtasks",
+      "tasks",
+      "habits"
+    ],
+    "settings": {
+      "capacities-body": [
+        {
+          "changes": {}
+        }
+      ],
+      "regtasks": [
+        {
+          "changes": {
+            "icon": "lucide-refresh-cw",
+            "color": "77, 255, 79"
+          }
+        }
+      ],
+      "check": [
+        {
+          "changes": {
+            "color": "102, 255, 102"
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "changes": {
+            "icon": "lucide-list-todo",
+            "color": "110, 255, 99"
+          }
+        }
+      ],
+      "habits": [
+        {
+          "changes": {
+            "icon": "lucide-check-circle",
+            "color": "0, 255, 25"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

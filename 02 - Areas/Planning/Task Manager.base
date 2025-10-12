@@ -1,0 +1,136 @@
+filters:
+  and:
+    - file.folder == "02 - Areas/Planning/Tasks"
+properties:
+  note.task_status:
+    displayName: Status
+  note.task_priority:
+    displayName: Priority
+  note.task_difficulty:
+    displayName: Difficulty
+  note.task:
+    displayName: Task
+  file.name:
+    displayName: Task
+  note.task_category:
+    displayName: Category
+  note.task_due_date:
+    displayName: Due Date
+views:
+  - type: table
+    name: 📋 All tasks
+    filters:
+      and:
+        - task_status != "✅ Done"
+        - task_status != "❌ Cancelled"
+    order:
+      - file.name
+      - task_status
+      - task_priority
+      - task_difficulty
+      - task_category
+      - task_due_date
+    sort:
+      - property: task_status
+        direction: DESC
+      - property: task_priority
+        direction: ASC
+      - property: task_due_date
+        direction: ASC
+      - property: task_difficulty
+        direction: ASC
+    columnSize:
+      file.name: 324
+      note.task_status: 130
+      note.task_priority: 132
+      note.task_category: 119
+  - type: table
+    name: 💼 For work
+    filters:
+      and:
+        - task_category == "💼 For work"
+    order:
+      - file.name
+      - task_status
+      - task_priority
+      - task_difficulty
+      - task_category
+    sort:
+      - property: task_due_date
+        direction: ASC
+      - property: task_status
+        direction: DESC
+      - property: task_priority
+        direction: ASC
+      - property: task_difficulty
+        direction: ASC
+    columnSize:
+      note.task: 616
+      note.task_status: 130
+      note.task_priority: 132
+  - type: table
+    name: 🎓 University
+    filters:
+      and:
+        - task_category == "🎓 University"
+    order:
+      - file.name
+      - task_status
+      - task_difficulty
+      - task_category
+      - task_due_date
+    sort:
+      - property: task_status
+        direction: DESC
+      - property: task_due_date
+        direction: ASC
+      - property: task_difficulty
+        direction: ASC
+    columnSize:
+      file.name: 147
+      note.task_status: 130
+      note.task_category: 109
+  - type: table
+    name: 🌟 Wants
+    filters:
+      and:
+        - task_category == "🌟 Wants"
+    order:
+      - file.name
+      - task_status
+      - task_priority
+      - task_difficulty
+      - task_category
+    sort:
+      - property: task_status
+        direction: DESC
+      - property: task_priority
+        direction: ASC
+      - property: task_difficulty
+        direction: ASC
+    columnSize:
+      note.task: 616
+      note.task_status: 130
+      note.task_priority: 132
+  - type: table
+    name: 🟣 Obsidian
+    filters:
+      and:
+        - task_category == "🟣 Obsidian"
+    order:
+      - file.name
+      - task_status
+      - task_priority
+      - task_difficulty
+      - task_category
+    sort:
+      - property: task_status
+        direction: DESC
+      - property: task_priority
+        direction: ASC
+      - property: task_difficulty
+        direction: ASC
+    columnSize:
+      file.name: 276
+      note.task_status: 130
+      note.task_priority: 132

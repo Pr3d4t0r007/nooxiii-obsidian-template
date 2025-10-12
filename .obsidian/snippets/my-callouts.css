@@ -1,0 +1,35 @@
+/* Anime Callout (pink) */
+.callout[data-callout="anime"] {
+    --callout-color: 255, 192, 203;
+    --callout-icon: lucide-flower;
+}
+
+/* Movie Callout (red) */
+.callout[data-callout="movie"] {
+    --callout-color: 229, 46, 46;
+    --callout-icon: lucide-popcorn;
+}
+
+/* Series Callout (yellow) */
+.callout[data-callout="series"] {
+    --callout-color: 224, 239, 92;
+    --callout-icon: lucide-monitor-play;
+}
+
+/* Favorite Callout (red) */
+.callout[data-callout="favorite"] {
+    --callout-color: 255, 0, 0;
+    --callout-icon: lucide-heart;
+}
+
+/* Game Callout (green) */
+.callout[data-callout="game"] {
+    --callout-color: 0, 255, 0;
+    --callout-icon: lucide-gamepad-2;
+}
+
+/* Book Callout (brown) */
+.callout[data-callout="book"] {
+    --callout-color: 236, 219, 151;
+    --callout-icon: lucide-book-open-text;
+}
