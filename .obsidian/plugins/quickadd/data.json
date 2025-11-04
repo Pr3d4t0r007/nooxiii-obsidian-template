@@ -13,7 +13,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "05 - Todo lists/Tasks"
+          "02 - Areas/Planning/Tasks"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
